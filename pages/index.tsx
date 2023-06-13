@@ -13,9 +13,9 @@ export default function Home() {
     <>
       <Head>
         <title>Ab5</title>
-        <meta name="title" content="hot" />
-        <meta name="description" content="best corad in unviverse" />
-        <meta name="theme-color" content="#3f00e4" />
+        <meta property="og:title" content="hot" />
+        <meta property="og:description" content="best corad in unviverse" />
+        <meta name="theme-color" content="#3f00e4" data-react-helmet="true" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
