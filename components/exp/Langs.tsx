@@ -13,7 +13,7 @@ const langs = () => {
       <ul className='flex gap-2 text-base flex-col'>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><DiPython/></span>Python</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><TbBrandGolang/></span>Go</li>
-        <li className='flex flex-row gap-1'><span className='text-blue-500'><DiJavascript1/></span>Javascript</li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><DiJavascript1/></span>Javascript/Typescript</li>
       </ul>
     </motion.div>
   )
