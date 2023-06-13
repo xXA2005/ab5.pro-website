@@ -14,7 +14,7 @@ const frameworks = () => {
         <li className='flex flex-row gap-1'><span className='text-blue-500'><SiNextdotjs/></span>Next.js</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><DiReact/></span>React.js</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><SiExpress/></span>Express.js</li>
-        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiFlask/></span>Flask</li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiFlask/></span>Flask.py</li>
       </ul>
     </motion.div>
   )
