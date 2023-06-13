@@ -2,9 +2,7 @@ import React from 'react'
 
 const dox = () => {
   return (
-    <div>
-      soon
-    </div>
+    <div className='flex justify-center items-center h-screen w-screen bg-black text-white font-bold text-4xl'>Soon™</div>
   )
 }
 
