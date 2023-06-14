@@ -67,7 +67,7 @@ const Projects = () => {
               </div>
               <p className='bg-gray-800 text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16'>Fast requests based hcaptcha solver with AI</p>
               <ul className='text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400'>
-                <li>golang</li>
+                <li>python</li>
               </ul>
             </div>
           </div>
