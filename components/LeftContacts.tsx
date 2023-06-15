@@ -37,21 +37,21 @@ const LeftContacts = () => {
                 <AiOutlineMail/>
             </span>
         </a>
-        <a href='https://www.youtube.com/@ab.5' target='_blank'>
+{/*         <a href='https://www.youtube.com/@ab.5' target='_blank'>
             <span className='w-10 h-10 text-xl bg-gray-900 rounded-full inline-flex items-center justify-center hover:text-indigo-300 cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                 <AiOutlineYoutube/>
             </span>
-        </a>
-        <a href='https://www.instagram.com/0xab5/' target='_blank'>
+        </a> */}
+{/*         <a href='https://www.instagram.com/0xab5/' target='_blank'>
             <span className='w-10 h-10 text-xl bg-gray-900 rounded-full inline-flex items-center justify-center hover:text-indigo-300 cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                 <AiOutlineInstagram/>
             </span>
-        </a>
-        <a href='https://www.tiktok.com/@xmon' target='_blank'>
+        </a> */}
+{/*         <a href='https://www.tiktok.com/@xmon' target='_blank'>
             <span className='w-10 h-10 text-xl bg-gray-900 rounded-full inline-flex items-center justify-center hover:text-indigo-300 cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                 <BsTiktok/>
             </span>
-        </a>
+        </a> */}
       </div>
       <div className='w-[2px] h-32 bg-gray-700'></div>
     </div>
