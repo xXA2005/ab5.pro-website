@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import { SiNextdotjs, SiExpress, SiFlask } from 'react-icons/si'
-import { DiReact } from 'react-icons/di'
+import { SiNextdotjs, SiExpress, SiFlask, SiDotnet, SiElectron } from 'react-icons/si'
+import { DiReact, DiPython } from 'react-icons/di'
 
 
 const frameworks = () => {
@@ -14,10 +14,10 @@ const frameworks = () => {
         <li className='flex flex-row gap-1'><span className='text-blue-500'><SiNextdotjs/></span>Next.js</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><DiReact/></span>React.js</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><SiExpress/></span>Express.js</li>
-        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiExpress/></span>Electron.js</li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiElectron/></span>Electron.js</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><SiFlask/></span>Flask.py</li>
-        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiFlask/></span>TkInter.py</li>
-        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiFlask/></span>.NET</li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><DiPython/></span>TkInter.py</li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiDotnet/></span>.NET</li>
       </ul>
     </motion.div>
   )

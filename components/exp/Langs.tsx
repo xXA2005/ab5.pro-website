@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { DiPython } from 'react-icons/di'
-import { TbBrandGolang } from 'react-icons/tb'
-import { DiJavascript1 } from 'react-icons/di'
+import { TbBrandGolang, TbBrandCSharp } from 'react-icons/tb'
+import { DiJavascript1, DiJava } from 'react-icons/di'
 
 const langs = () => {
   return (
@@ -14,7 +14,8 @@ const langs = () => {
         <li className='flex flex-row gap-1'><span className='text-blue-500'><DiPython/></span>Python <span className='text-blue-400'>pro max</span></li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><TbBrandGolang/></span>Go <span className='text-blue-400'>pro</span></li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><DiJavascript1/></span>Javascript/Typescript <span className='text-blue-400'>pro</span></li>
-        <li className='flex flex-row gap-1'><span className='text-blue-500'><DiJavascript1/></span>C#/Java <span className='text-blue-400'>basics</span></li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><TbBrandCSharp/></span>C#<span className='text-blue-400'>basics</span></li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><DiJava/></span>Java<span className='text-blue-400'>basics</span></li>
       </ul>
     </motion.div>
   )
