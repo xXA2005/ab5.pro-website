@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { SiNextdotjs, SiExpress, SiFlask, SiDotnet, SiElectron } from 'react-icons/si'
+import { SiNextdotjs, SiExpress, SiFlask, SiDotnet, SiElectron, SiTensorflow } from 'react-icons/si'
 import { DiReact, DiPython } from 'react-icons/di'
 
 
@@ -18,6 +18,7 @@ const frameworks = () => {
         <li className='flex flex-row gap-1'><span className='text-blue-500'><SiFlask/></span>Flask.py</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><DiPython/></span>TkInter.py</li>
         <li className='flex flex-row gap-1'><span className='text-blue-500'><SiDotnet/></span>.NET</li>
+        <li className='flex flex-row gap-1'><span className='text-blue-500'><SiTensorflow/></span>Tensorflow</li>
       </ul>
     </motion.div>
   )
