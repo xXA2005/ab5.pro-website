@@ -18,7 +18,7 @@ export default function Home() {
         <meta property="og:description" content="best codar in life" />
         <meta property="description" content="Ab5 is the best coder in life trust" />
         <meta name="theme-color" content="#3f00e4" />
-        <meta name="keywords" content="ab5, ab5.wtf, xXA2005, hamood#7368, Ab5" />
+        <meta name="keywords" content="ab5, ab5.wtf, xXA2005, hamood#7368, Ab5, coding, coder, programmer, tools, nuker" />
         <meta name="language" content="en" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
