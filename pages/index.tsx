@@ -13,9 +13,13 @@ export default function Home() {
     <>
       <Head>
         <title>Ab5</title>
-        <meta property="og:title" content="hot" />
-        <meta property="og:description" content="best corad in unviverse" />
-        <meta name="theme-color" content="#3f00e4" data-react-helmet="true" />
+        <meta property="og:title" content="Ab5" />
+        <meta property="title" content="Ab5" />
+        <meta property="og:description" content="best codar in life" />
+        <meta property="description" content="Ab5 is the best coder in life trust" />
+        <meta name="theme-color" content="#3f00e4" />
+        <meta name="keywords" content="ab5, ab5.wtf, xXA2005, hamood#7368, Ab5" />
+        <meta name="language" content="en" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
