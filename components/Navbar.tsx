@@ -97,7 +97,18 @@ const Navbar = () => {
             </Link>
             {/* <Link onClick={handleScroll} href="#articles" className='flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 nav-link font-medium'><motion.li initial={{y: -10, opacity:0}} animate={{y:0, opacity:1}} transition={{duration:0.4}}>Articles</motion.li></Link>  */}
             {/* <Link onClick={handleScroll} href="#thanks" className='flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 nav-link font-medium'><motion.li initial={{y: -10, opacity:0}} animate={{y:0, opacity:1}} transition={{duration:0.4}}>Thanks</motion.li></Link> */}
-            {/* <Link href="/dox" className='flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 font-medium'><motion.li initial={{y: -10, opacity:0}} animate={{y:0, opacity:1}} transition={{duration:0.5}}>Dox</motion.li></Link> */}
+            <Link
+              href="/shop"
+              className="flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 font-medium"
+            >
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+              >
+                shop
+              </motion.li>
+            </Link>
           </ul>
         </div>
         {/* small icon section */}
@@ -168,7 +179,18 @@ const Navbar = () => {
                   </Link>
                   {/* <Link onClick={handleScroll} href="#articles" className='flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 nav-link font-medium'><motion.li initial={{y: 20, opacity:0}} animate={{y:0, opacity:1}} transition={{duration:0.4,delay:0.1, ease:'easeIn'}}>Articles</motion.li></Link>  */}
                   {/* <Link onClick={handleScroll} href="#thanks" className='flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 nav-link font-medium'><motion.li initial={{y: 20, opacity:0}} animate={{y:0, opacity:1}} transition={{duration:0.4,delay:0.1, ease:'easeIn'}}>Thanks</motion.li></Link> */}
-                  {/* <Link href="/dox" className='flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 font-medium'><motion.li initial={{y: 20, opacity:0}} animate={{y:0, opacity:1}} transition={{duration:0.5,delay:0.1, ease:'easeIn'}}>Dox</motion.li></Link> */}
+                  <Link
+                    href="/shop"
+                    className="flex items-center gap-1 text-blue-500 hover:text-blue-700 cursor-pointer duration-300 font-medium"
+                  >
+                    <motion.li
+                      initial={{ y: 20, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ duration: 0.5, delay: 0.1, ease: "easeIn" }}
+                    >
+                      shop
+                    </motion.li>
+                  </Link>
                 </ul>
                 <div>
                   <div className="flex gap-4 pb-4">
