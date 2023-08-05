@@ -1,9 +1,12 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import { ab5, hcaptcha, mc, gogen } from "@/public";
-import { SiPypi, SiNpm } from "react-icons/si";
+import { ab5, hcaptcha, mc, gogen, hcap } from "@/public";
+import { SiPypi, SiNpm, SiTensorflow } from "react-icons/si";
 import { BsCodeSlash } from "react-icons/bs";
+import { TbBrandGolang } from "react-icons/tb";
+import { DiPython } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -41,6 +44,13 @@ const Projects = () => {
                 <li>pypi</li>
               </ul>
               <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-blue-500 duration-300"
+                  href="https://www.python.org/"
+                  target="_blank"
+                >
+                  <DiPython />
+                </a>
                 <a
                   className="hover:text-blue-500 duration-300"
                   href="https://pypi.org/project/ab5/"
@@ -83,11 +93,28 @@ const Projects = () => {
                 <h3 className="text-2xl font-bold">Hcaptcha solver</h3>
               </div>
               <p className="bg-gray-800 text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16">
-                Fast requests based hcaptcha solver with AI
+                Hcaptcha image recogniton api for my golang solver
               </p>
               <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
                 <li>python</li>
+                <li>Tensorflow</li>
               </ul>
+              <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-blue-500 duration-300"
+                  href="https://www.tensorflow.org/"
+                  target="_blank"
+                >
+                  <SiTensorflow />
+                </a>
+                <a
+                  className="hover:text-blue-500 duration-300"
+                  href="https://www.python.org/"
+                  target="_blank"
+                >
+                  <DiPython />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -137,6 +164,13 @@ const Projects = () => {
                 >
                   <BsCodeSlash />
                 </a>
+                <a
+                  className="hover:text-blue-500 duration-300"
+                  href="https://nodejs.org/"
+                  target="_blank"
+                >
+                  <FaNodeJs />
+                </a>
               </div>
             </div>
           </div>
@@ -170,6 +204,55 @@ const Projects = () => {
               <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
                 <li>golang</li>
               </ul>
+              <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-blue-500 duration-300"
+                  href="https://go.dev/"
+                  target="_blank"
+                >
+                  <TbBrandGolang />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              // href="https://github.com/xXA2005/minecraft-botter-with-proxy-support"
+              target="_blank"
+            >
+              <div>
+                <Image
+                  className="w-full h-full object-contain"
+                  src={hcap}
+                  alt={"hcap"}
+                />
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lg:justify-between items-end text-right xl:-ml-16 z-10">
+              <div>
+                <p className="text-blue-500 text-sm tracking-wide">
+                  Featured Project
+                </p>
+                <h3 className="text-2xl font-bold">Fast hcaptcha solver</h3>
+              </div>
+              <p className="bg-gray-800 text-sm md:text-base p-2 md:p-6 rounded-md">
+                solves hcaptcha fr
+              </p>
+              <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
+                <li>golang</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-blue-500 duration-300"
+                  href="https://go.dev/"
+                  target="_blank"
+                >
+                  <TbBrandGolang />
+                </a>
+              </div>
             </div>
           </div>
         </div>
