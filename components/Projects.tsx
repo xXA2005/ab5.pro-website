@@ -198,7 +198,7 @@ const Projects = () => {
                 </p>
                 <h3 className="text-2xl font-bold">Discord token generator</h3>
               </div>
-              <p className="bg-gray-800 text-sm md:text-base p-2 md:p-6 rounded-md">
+              <p className="bg-gray-800 text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16">
                 make discord accounts
               </p>
               <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-gray-400">
