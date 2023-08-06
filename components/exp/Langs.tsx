@@ -25,7 +25,7 @@ const langs = () => {
           <span className="text-blue-500">
             <TbBrandGolang />
           </span>
-          Go <span className="text-blue-400">pro max</span>
+          Go <span className="text-blue-400">pro max ultra</span>
         </li>
         <li className="flex flex-row gap-1">
           <span className="text-blue-500">
