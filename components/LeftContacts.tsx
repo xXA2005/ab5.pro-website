@@ -19,7 +19,7 @@ const LeftContacts = () => {
           </span>
         </a>
         <a
-          href="https://discordlookup.com/user/1161604278083911711"
+          href="https://discordlookup.com/user/1186384605733994596"
           target="_blank"
         >
           <span className="w-10 h-10 text-xl bg-gray-900 rounded-full inline-flex items-center justify-center hover:text-indigo-300 cursor-pointer hover:-translate-y-2 transition-all duration-300">
